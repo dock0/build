@@ -1,4 +1,4 @@
-FROM dock0/arch
+FROM dock0/amylum_arch
 MAINTAINER akerl <me@lesaker.org>
 RUN pacman -S --needed --noconfirm ruby openssh base-devel musl vim-minimal tree
 RUN gem install --no-user-install --no-rdoc --no-ri targit gist
