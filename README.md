@@ -2,7 +2,7 @@ dock0/build
 =======
 
 [![Automated Build](https://img.shields.io/docker/build/dock0/build.svg)](https://hub.docker.com/r/dock0/build/)
-[![Build Status](https://img.shields.io/circleci/project/dock0/build/master.svg)](https://circleci.com/gh/dock0/build)
+[![Build Status](https://img.shields.io/travis/com/dock0/build.svg)](https://travis-ci.com/dock0/build)
 [![MIT Licensed](http://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
 Build container. It's basically [dock0/arch](https://github.com/dock0/arch) with openssh and targit.
