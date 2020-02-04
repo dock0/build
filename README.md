@@ -1,11 +1,10 @@
 dock0/build
 =======
 
-[![Automated Build](https://img.shields.io/docker/build/dock0/build.svg)](https://hub.docker.com/r/dock0/build/)
-[![Build Status](https://img.shields.io/travis/com/dock0/build.svg)](https://travis-ci.com/dock0/build)
-[![MIT Licensed](http://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dock0/build/Build)](https://github.com/dock0/build/actions))
+[![License](https://img.shields.io/github/license/dock0/build)](https://github.com/dock0/build/blob/master/LICENSE)
 
-Build container. It's basically [dock0/arch](https://github.com/dock0/arch) with openssh and targit.
+Build container. It's basically [dock0/arch](https://github.com/dock0/arch) with base-devel, musl, and vim.
 
 Used to build other things using my standard workflow. For an example, see [dock0/initrd](https://github.com/dock0/initrd)
 

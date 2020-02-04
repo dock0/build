@@ -1,7 +1,6 @@
-FROM dock0/amylum_arch
+FROM docker.pkg.github.com/dock0/arch/image:latest
 MAINTAINER akerl <me@lesaker.org>
-RUN pacman -S --needed --noconfirm ruby openssh base-devel musl-amylum vim-minimal tree
-RUN gem install --no-user-install --no-document targit gist
+RUN pacman -S --needed --noconfirm base-devel musl vim-minimal tree
 ENV EDITOR vim
 WORKDIR /opt/build
 CMD ["make", "local"]
