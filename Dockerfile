@@ -1,6 +1,6 @@
-FROM docker.pkg.github.com/dock0/arch/arch:20200214-28a6a4b
+FROM docker.pkg.github.com/dock0/amylum_arch/amylum_arch:latest
 MAINTAINER akerl <me@lesaker.org>
-RUN pacman -S --needed --noconfirm base-devel musl vim-minimal tree
+RUN pacman -S --needed --noconfirm base-devel musl-amylum vim-minimal tree
 ENV EDITOR vim
 WORKDIR /opt/build
 CMD ["make", "local"]
