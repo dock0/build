@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/dock0/amylum_arch/amylum_arch:20200216-b45ed11
+FROM docker.pkg.github.com/dock0/amylum_arch/amylum_arch:20200216-addb17a
 MAINTAINER akerl <me@lesaker.org>
 RUN pacman -S --needed --noconfirm base-devel musl-amylum vim-minimal tree
 ENV EDITOR vim
