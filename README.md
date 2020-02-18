@@ -1,7 +1,7 @@
 dock0/build
 =======
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dock0/build/Build)](https://github.com/dock0/build/actions))
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dock0/build/Build)](https://github.com/dock0/build/actions)
 [![License](https://img.shields.io/github/license/dock0/build)](https://github.com/dock0/build/blob/master/LICENSE)
 
 Build container. It's basically [dock0/arch](https://github.com/dock0/arch) with base-devel, musl, and vim.
