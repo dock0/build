@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/dock0/arch/arch:20210729-7a79fd2
+FROM docker.pkg.github.com/dock0/arch/arch:20210729-4e398c7
 MAINTAINER akerl <me@lesaker.org>
 RUN pacman -S --needed --noconfirm base-devel musl vim-minimal tree openssh
 ENV EDITOR vim
