@@ -1,4 +1,4 @@
-FROM ghcr.io/dock0/arch:20220707-8d666ab
+FROM ghcr.io/dock0/arch:20220707-558c40e
 MAINTAINER akerl <me@lesaker.org>
 RUN pacman -S --needed --noconfirm base-devel vim-minimal tree
 ENV EDITOR vim
