@@ -1,4 +1,4 @@
-FROM ghcr.io/dock0/arch:v3.0.76
+FROM ghcr.io/dock0/arch:v3.0.88
 RUN pacman -S --needed --noconfirm base-devel vim-minimal tree
 ENV EDITOR vim
 WORKDIR /opt/build
